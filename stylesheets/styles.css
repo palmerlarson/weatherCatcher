@@ -1,0 +1,120 @@
+
+
+body {
+	background-color: #00bfff;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.displayTable {
+	table-layout: auto;
+	max-width: 700px;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+td {
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #fafafa;
+	border-radius: 10px;
+	font-size: 2em;
+	height: 10px;
+}
+
+.container {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.output {
+	text-align: center;
+}
+
+.icon {
+	max-width: 11%;
+}
+
+/**https://doodlenerd.com/html-control/css-textbox-generator **/
+.css-input {
+     padding: 0px;
+     font-size: 27px;
+	 width: 180px;
+	 height: 39px;
+     color: #000000;
+     border-style: solid;
+	 text-align: center;
+}
+
+/**https://cssbuttongenerator.com/**/
+.button {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:40px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#74b807;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #a4e271;
+  background:linear-gradient(#89c403, #77a809);
+}
+
+.button:hover {
+  background: linear-gradient(#77a809, #89c403);
+}
+
+/*Cloud Animations*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: -10%;
+    width: 100%;
+  }
+}
+
+.cloud {
+	z-index: -1;
+	position: absolute;
+	animation: 50s linear infinite slidein;
+	max-width: 12%;
+}
+
+.cloud2 {
+	z-index: -1;
+	position: absolute;
+	animation: 30s linear infinite slidein;
+	padding-top: 100px;
+	max-width: 12%;
+}
+
+.cloud3 {
+	z-index: -1;
+	position: absolute;
+	animation: 60s linear infinite slidein;
+	padding-top: 200px;
+	max-width: 12%;
+}
+
+.cloud4 {
+	z-index: -1;
+	position: absolute;
+	animation: 40s linear infinite slidein;
+	padding-top: 350px;
+	max-width: 12%;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
